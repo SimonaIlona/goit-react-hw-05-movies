@@ -1,8 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/react';
-import debounce from 'debounce';
-
+import debounce from 'lodash.debounce';
 const Scroll = () => {
   const [isVisible, setIsVisible] = useState(false);
 
